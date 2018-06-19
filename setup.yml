@@ -1,0 +1,39 @@
+# If you've already installed this environment before:
+#   > `conda remove --name mlgent --all`
+# To install/reinstall the environment:
+#   > `conda-env create -f setup.yml`
+# A nice way to set the display name for the environment:
+#   > `source activate mlgent`
+#   > `python -m ipykernel install --name mlgent --display-name "ML Gentrification"`
+name: mlgent 
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6
+  - pip
+  - cython
+  - matplotlib
+  - pandas
+  - scipy>=0.19
+  - numpy>=1.11
+  - ipython
+  - ipywidgets
+  - jupyter
+  - requests
+  - mplleaflet
+  - nb_conda
+  - gdal
+  - libspatialite
+  - fiona
+  - pillow
+  - shapely
+  - geopandas>=0.3
+  - palettable
+  - pysal
+  - scikit-learn
+  - seaborn
+  - beautifulsoup4
+  - xlrd
+  - six
+  - lxml
+  - jupyterlab
