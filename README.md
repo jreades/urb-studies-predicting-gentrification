@@ -27,9 +27,9 @@ The notebooks have been named in such a way as to make it easy to work out the s
 
 ### Geo-Convert
 
-There are also several scripts to support testing of the class created to automate interaction with the ONS's Geo-Convert tool. This is essential for mapping between 2001 and 2011 because of boundary changes between the two Censuses. If you are not working with UK Census data then this tool is not relevant (though boundary changes may still impact your results... you have been warned!). I should note that although it is possible, in principle, to update this class to perform any and all of the actions associated with the Geo-Convert web service I have _only_ implemented the 2001 -> 2011 conversion of LSOAs as that is all that I needed.
+There are also several scripts to support testing of the class created to automate interaction with the MIMAS's Geo-Convert tool. This is essential for mapping between 2001 and 2011 because of boundary changes between the two Censuses. If you are not working with UK Census data then this tool is not relevant (though boundary changes may still impact your results... you have been warned!). I should note that although it is possible, in principle, to update this class to perform any and all of the actions associated with the Geo-Convert web service I have _only_ implemented the 2001 -> 2011 conversion of LSOAs as that is all that I needed.
 
-From time to time the ONS may also update Geo-Convert and break the `geoconvert` class; up to a point I will attempt to correct this quickly, but if the changes are substantial enough then this may not be something I'm able to address immediately.
+From time to time the MIMAS may also update Geo-Convert and break the `geoconvert` class; up to a point I will attempt to correct this quickly, but if the changes are substantial enough then this may not be something I'm able to address immediately.
 
 ### Downloading Data
 
@@ -39,4 +39,7 @@ Where possible I have attempted to either automate the download of the required 
 
 Many of the algorithms used in this analysis rely on `randomness` -- I have attempted to set the same seed everywhere that randomness might be used by Python and so your results _should_ match mine. Be aware, however, that minor platform differences or other changes to the code _could_ significaintly alter the results (though we obviously hope not!).
 
+## To Dos
 
+* Adjust GeoConvert Class Testing to be fully self-contained and download a 'random' 2001 data set from the London Data Store for conversion."
+* Add links to README
