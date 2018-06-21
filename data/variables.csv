@@ -1,0 +1,209 @@
+Code,Predictor,Title,Description,Category Code,Category,Group
+0,In commercial building,In commercial building,,acc_type,Accommodation Type,Housing
+1,Purpose-built block of flats or tenement,Purpose-built block of flats or tenement,,acc_type,Accommodation Type,Housing
+2,Terraced,Terrace (including end-Terrace),,acc_type,Accommodation Type,Housing
+3,Semi-detached,Semi-Detached,,acc_type,Accommodation Type,Housing
+4,Detached,Detached,,acc_type,Accommodation Type,Housing
+5,Part of a converted or shared house,Part of a converted or shared house,,acc_type,Accommodation Type,Housing
+6,Caravan or other mobile or temporary structure,Caravan or other mobile or temporary structure,,acc_type,Accommodation Type,Housing
+7,Shared dwelling,Shared dwelling,,acc_type,Accommodation Type,Housing
+8,Young Children,Young Children,,age_struct,Age Structure,Households
+9,Teenagers,Teenagers,,age_struct,Age Structure,Households
+10,Young Adults,Young Adults,,age_struct,Age Structure,Households
+11,Adults,Adults,,age_struct,Age Structure,Households
+12,Retired_y,Retired,,age_struct,Age Structure,Households
+13,Elderly,Elderly,,age_struct,Age Structure,Households
+14,Rest of UK,United Kingdom (not including England),,birth_ctry,Country of Birth,Households
+15,England,England,,birth_ctry,Country of Birth,Households
+16,Ireland,Ireland,,birth_ctry,Country of Birth,Households
+17,EU 2001 Members,EU 2001 Members,,birth_ctry,Country of Birth,Households
+18,Rest of Europe,Rest of Europe,,birth_ctry,Country of Birth,Households
+19,Poland,Poland,,birth_ctry,Country of Birth,Households
+20,Turkey,Turkey,,birth_ctry,Country of Birth,Households
+21,North Africa,North Africa,,birth_ctry,Country of Birth,Households
+22,Central and Western Africa,Central and Western Africa,,birth_ctry,Country of Birth,Households
+23,Other Africa,Other Central and Western Africa,,birth_ctry,Country of Birth,Households
+24,South and Eastern Africa,South and Eastern Africa,,birth_ctry,Country of Birth,Households
+25,Middle East,Middle East,,birth_ctry,Country of Birth,Households
+26,Far East,Far East,,birth_ctry,Country of Birth,Households
+27,South Asia,South Asia,,birth_ctry,Country of Birth,Households
+28,North America,North America,,birth_ctry,Country of Birth,Households
+29,South America,South America,,birth_ctry,Country of Birth,Households
+30,Oceania,Oceania,,birth_ctry,Country of Birth,Households
+31,Americas,The Americas,,birth_ctry,Country of Birth,Households
+32,Asia,Asia,,birth_ctry,Country of Birth,Households
+33,Africa,Africa,,birth_ctry,Country of Birth,Households
+34,No vehicle,No vehicle,,crs_vns,Vehicle Ownership,Travel
+35,1 vehicle,2 vehicle,,crs_vns,Vehicle Ownership,Travel
+36,2 vehicles,2 vehicles,,crs_vns,Vehicle Ownership,Travel
+37,3 vehicles,3 vehicles,,crs_vns,Vehicle Ownership,Travel
+38,4 or more vehicles,4 or more vehicles,,crs_vns,Vehicle Ownership,Travel
+39,Density,Population Density,,density,Density,Housing
+40,0D,0 Dependents,,dep_child,Dependent Children,Households
+41,1D: 0 to 4,1 Dependent (0-4),,dep_child,Dependent Children,Households
+42,1D: 5 to 11,1 Dependent (5-11),,dep_child,Dependent Children,Households
+43,1D: 12 to 18,1 Dependent (12-18),,dep_child,Dependent Children,Households
+44,2D:  0 to 4,2 Dependents (Youngest aged 0 to 4),,dep_child,Dependent Children,Households
+45,2D:  5 to 11,2 Dependents (Youngest aged 5 to 11),,dep_child,Dependent Children,Households
+46,2D:  12 to 18,2 Dependents (Youngest aged 12 to 18),,dep_child,Dependent Children,Households
+47,driving_distance_miles,Driving Distance to Bank (Miles),,dist_to_dt,Distance to Downtown,Travel
+48,driving_time_mins,Driving Time to Bank (Minutes),,dist_to_dt,Distance to Downtown,Travel
+49,public_transport_time_mins,Public Transport Time to Bank (Minutes),,dist_to_dt,Distance to Downtown,Travel
+50,cycling_distance_miles,Cycling Distance to Bank (Miles),,dist_to_dt,Distance to Downtown,Travel
+51,cycling_time_mins,Cycling Time to Bank (Minutes),,dist_to_dt,Distance to Downtown,Travel
+52,walking_distance_miles,Walking Distance to Bank (Miles),,dist_to_dt,Distance to Downtown,Travel
+53,walking_time_mins,Walking Time to Bank (Minutes),,dist_to_dt,Distance to Downtown,Travel
+54,Build Period: PRE-1900,Built Pre-1901,,dwelling_age_data,Dwelling Age,Housing
+55,Build Period: 1900-1918,Built 1900-1919,,dwelling_age_data,Dwelling Age,Housing
+56,Build Period: 1919-1929,Built 1919-1930,,dwelling_age_data,Dwelling Age,Housing
+57,Build Period: 1930-1939,Built 1930 -1940,,dwelling_age_data,Dwelling Age,Housing
+58,Build Period: 1945-1954,Built 1945-1955,,dwelling_age_data,Dwelling Age,Housing
+59,Build Period: 1955-1964,Built 1955-1965,,dwelling_age_data,Dwelling Age,Housing
+60,Build Period: 1965-1972,Built 1965-1973,,dwelling_age_data,Dwelling Age,Housing
+61,Build Period: 1973-1982,Built 1973-1983,,dwelling_age_data,Dwelling Age,Housing
+62,Build Period: 1983-1992,Built 1983-1993,,dwelling_age_data,Dwelling Age,Housing
+63,Build Period: 1993-1999,Built 1993-1999,,dwelling_age_data,Dwelling Age,Housing
+64,Build Period: UNKNOWN,Unknown Build Period,,dwelling_age_data,Dwelling Age,Housing
+65,White,White,,ethnic,Ethnicity,Households
+66,Black,Black,,ethnic,Ethnicity,Households
+67,Asian,Asian,,ethnic,Ethnicity,Households
+68,Mixed,Mixed,,ethnic,Ethnicity,Households
+69,Other Ethnicity,Other Ethnicity,,ethnic,Ethnicity,Households
+70,Chinese,Chinese,,ethnic,Ethnicity,Households
+71,Good health,Good health,,gen_hlth,General Health,Households
+72,Fair health,Fair health,,gen_hlth,General Health,Households
+73,Poor health,Poor health,,gen_hlth,General Health,Households
+74,1P: 65+,1 Person (65 or Older),,hh_comp,Household Composition,Households
+75,1P: Other,1 Person (Other),,hh_comp,Household Composition,Households
+76,1F: 65+,1 Family (All 65 or Older),,hh_comp,Household Composition,Households
+77,1FM: No children,1 Family (Married couple; no children),,hh_comp,Household Composition,Households
+78,1FM: Dependent children,1 Family (Married couple; dependent children),,hh_comp,Household Composition,Households
+79,1FM: All children non-dependent,1 Family (Married couple; all children non-dependent),,hh_comp,Household Composition,Households
+80,1FC: No children,1 Family (Cohabiting couple; no children),,hh_comp,Household Composition,Households
+81,1FC: Dependent children,1 Family (Cohabiting couple; dependent children),,hh_comp,Household Composition,Households
+82,1FC: All children non-dependent,1 Family (Cohabiting couple; all children non-dependent),,hh_comp,Household Composition,Households
+83,1FL: Dependent children,1 Family (Lone parent; dependent children),,hh_comp,Household Composition,Households
+84,1FL: All children non-dependent,1 Family (Lone parent; all children non-dependent),,hh_comp,Household Composition,Households
+85,O: With dependent children,Other households (Dependent children),,hh_comp,Household Composition,Households
+86,O: Students,Other households (All students),,hh_comp,Household Composition,Households
+87,O: 65+,Other households (All 65 or Older),,hh_comp,Household Composition,Households
+88,O: Other,Other households (All other),,hh_comp,Household Composition,Households
+89,Males: 16 to 30 hours,Males: 16 to 30 hours,,hrs_wrkd,Hours Worked,Work
+90,Males: 49 or more hours,Males: 49 or more hours,,hrs_wrkd,Hours Worked,Work
+91,Females: 16 to 30 hours,Females: 16 to 30 hours,,hrs_wrkd,Hours Worked,Work
+92,Females: 49 or more hours,Females: 49 or more hours,,hrs_wrkd,Hours Worked,Work
+93,Males: 15 hours or less,Males: 15 hours or less,,hrs_wrkd,Hours Worked,Work
+94,Males: 31 to 48 hours,Males: 31 to 48 hours,,hrs_wrkd,Hours Worked,Work
+95,Females: 15 hours or less,Females: 15 hours or less,,hrs_wrkd,Hours Worked,Work
+96,Females: 31 to 48 hours,Females: 31 to 48 hours,,hrs_wrkd,Hours Worked,Work
+97,Owned: Outright,Owned: Outright,,hsng_tnr,Housing Tenure,Housing
+98,Owned: Mortgaged,Owned: Mortgaged,,hsng_tnr,Housing Tenure,Housing
+99,Shared ownership,Shared ownership,,hsng_tnr,Housing Tenure,Housing
+100,Rented: Council,Rented: Council,,hsng_tnr,Housing Tenure,Housing
+101,Rented: HA or RSL,Rented: HA or RSL,,hsng_tnr,Housing Tenure,Housing
+102,Rented: Private,Rented: Private,,hsng_tnr,Housing Tenure,Housing
+103,Other Tenure Type,Ownership: Other,,hsng_tnr,Housing Tenure,Housing
+104,Mean Income,Mean Income,,inc,Scoring Metric,Work
+105,Household Income,Median Income,,inc,Scoring Metric,Work
+106,A. Agriculture et al,A. Agriculture et al,,industry,Industry of Employment,Work
+107,C. Mining,C. Mining,,industry,Industry of Employment,Work
+108,D. Manufacturing,D. Manufacturing,,industry,Industry of Employment,Work
+109,E. Utilities,E. Utilities,,industry,Industry of Employment,Work
+110,F. Construction,F. Construction,,industry,Industry of Employment,Work
+111,G. Wholesale and retail,G. Wholesale and retail,,industry,Industry of Employment,Work
+112,H. Hotels and restaurants,H. Hotels and restaurants,,industry,Industry of Employment,Work
+113,I. Transport storage and comms,I. Transport storage and comms,,industry,Industry of Employment,Work
+114,J. Financial,J. Financial,,industry,Industry of Employment,Work
+115,K. Professional,K. Professional,,industry,Industry of Employment,Work
+116,L. Public Sector,L. Public Sector,,industry,Industry of Employment,Work
+117,M. Education,M. Education,,industry,Industry of Employment,Work
+118,N. Health and social work,N. Health and social work,,industry,Industry of Employment,Work
+119,P. All Other,P. All Other,,industry,Industry of Employment,Work
+120,Homeworker,Homeworker,,mode,Travel-to-Work Mode,Travel
+121,Tube or Tram,Tube or Tram,,mode,Travel-to-Work Mode,Travel
+122,Train,Train,,mode,Travel-to-Work Mode,Travel
+123,Bus,Bus,,mode,Travel-to-Work Mode,Travel
+124,Taxi,Taxi or minicab,,mode,Travel-to-Work Mode,Travel
+125,Private Vehicle,Private Vehicle,,mode,Travel-to-Work Mode,Travel
+126,Passenger in Private Vehicle,Passenger in Private Vehicle,,mode,Travel-to-Work Mode,Travel
+127,Motorcycle or Moped,Motorcycle or Moped,,mode,Travel-to-Work Mode,Travel
+128,Bicycle,Bicycle,,mode,Travel-to-Work Mode,Travel
+129,Foot,Foot,,mode,Travel-to-Work Mode,Travel
+130,Other travel method,Other Mode,,mode,Travel-to-Work Mode,Travel
+131,Not in employment,No Travel Mode (not currently working),,mode,Travel-to-Work Mode,Travel
+132,Single (never married),Single (never married),,mrtl_sts,Marital Status,Households
+133,Separated,Separated (but still legally married),,mrtl_sts,Marital Status,Households
+134,Divorced,Divorced,,mrtl_sts,Marital Status,Households
+135,Widowed,Widowed,,mrtl_sts,Marital Status,Households
+136,Married,Married (first or re-married),,mrtl_sts,Marital Status,Households
+137,1.1 Large employers and higher managerial and administrative occupations,1.1 Large employers and higher managerial and administrative occupations,,nssec,Socio-Economic Status,Work
+138,1.2 Higher professional occupations,1.2 Higher professional occupations,,nssec,Socio-Economic Status,Work
+139,2. Lower managerial and professional occupations,2. Lower managerial and professional occupations,,nssec,Socio-Economic Status,Work
+140,3. Intermediate occupations,3. Intermediate occupations,,nssec,Socio-Economic Status,Work
+141,4. Small employers and own account workers,4. Small employers and own account workers,,nssec,Socio-Economic Status,Work
+142,5. Lower supervisory and technical occupations,5. Lower supervisory and technical occupations,,nssec,Socio-Economic Status,Work
+143,6. Semi-routine occupations,6. Semi-routine occupations,,nssec,Socio-Economic Status,Work
+144,7. Routine occupations,7. Routine occupations,,nssec,Socio-Economic Status,Work
+145,8. Never worked and long-term unemployed,8. Never worked and long-term unemployed,,nssec,Socio-Economic Status,Work
+146,Not classified,Not classified,,nssec,Socio-Economic Status,Work
+147,Open Space,Open Space,,os_acc_data,Nearby Open-Space,Amenity
+148,Local Parks,Local Parks,,os_acc_data,Nearby Open-Space,Amenity
+149,District Parks,District Parks,,os_acc_data,Nearby Open-Space,Amenity
+150,Metropolitan Parks,Metropolitan Parks,,os_acc_data,Nearby Open-Space,Amenity
+151,Regional Parks,Regional Parks,,os_acc_data,Nearby Open-Space,Amenity
+152,% open space,% open space,,os_data,Accessible Open-Space,Amenity
+153,% open space with access,% open space with access,,os_data,Accessible Open-Space,Amenity
+154,% of open space that has access,% of open space that has access,,os_data,Accessible Open-Space,Amenity
+155,Christian,Christian,,rel,Religion,Households
+156,Buddhist,Buddhist,,rel,Religion,Households
+157,Hindu,Hindu,,rel,Religion,Households
+158,Jewish,Jewish,,rel,Religion,Households
+159,Muslim,Muslim,,rel,Religion,Households
+160,Sikh,Sikh,,rel,Religion,Households
+161,Other religion,Other religion,,rel,Religion,Households
+162,No religion,No religion,,rel,Religion,Households
+163,Religion not stated,Religion not stated,,rel,Religion,Households
+164,Sales_1995,Sales in 1995,,trans,Housing Transactions,Housing
+165,Sales_1996,Sales in 1996,,trans,Housing Transactions,Housing
+166,Sales_1997,Sales in 1997,,trans,Housing Transactions,Housing
+167,Sales_1998,Sales in 1998,,trans,Housing Transactions,Housing
+168,Sales_1999,Sales in 1999,,trans,Housing Transactions,Housing
+169,Sales_2000,Sales in 2000,,trans,Housing Transactions,Housing
+170,Sales_2001,Sales in 2001,,trans,Housing Transactions,Housing
+171,Fare_Zone,My Fare Zone,,zone_data,Fare Zone,Travel
+172,Managerial,Mangerial Role,,score,Scoring Metric,Housing
+173,Professional,Professional Role,,score,Scoring Metric,Work
+174,Technical,Technical Role,,score,Scoring Metric,Work
+175,Administrative,Administrative Role,,score,Scoring Metric,Work
+176,Skilled,Skilled Manual Role,,score,Scoring Metric,Work
+177,Personal Service,Personal Service Role,,score,Scoring Metric,Work
+178,Customer Service,Customer Service Role,,score,Scoring Metric,Housing
+179,Operators,Operators Role,,score,Scoring Metric,Work
+180,Elementary,Elementary Occupations Role,,score,Scoring Metric,Work
+181,House Prices,Median House Price,,score,Scoring Metric,Housing
+182,No qualifications,No Qualifications,,score,Scoring Metric,Work
+183,Level 1,Level 1 Qualifications,,score,Scoring Metric,Work
+184,Level 2,Level 2 Qualifications,,score,Scoring Metric,Work
+185,Level 3,Level 3 Qualifications,,score,Scoring Metric,Work
+186,Percentage with Level 4+ Qualifications,Level 4 and Above Qualifications,,score,Scoring Metric,Work
+187,Other,Other Qualifications,,score,Scoring Metric,Work
+188,Students: In employment,Students: In employment,,score,Scoring Metric,Work
+189,Students: Unemployed,Students: Unemployed,,score,Scoring Metric,Work
+190,Students: inactive,Students: inactive,,score,Scoring Metric,Work
+191,PT Employee,Employee: Part-Time,,active,Economic Activity,Work
+192,FT Employee,Employee: Full-Time,,active,Economic Activity,Work
+193,PT Self-Employed with Employees,Self-Employed with Employees: Part-Time,,active,Economic Activity,Work
+194,FT Self-Employed with Employees,Self-Employed with Employees: Full-Time,,active,Economic Activity,Work
+195,PT Self-Employed without Employees,Self-Employed without Employees: Part-Time,,active,Economic Activity,Work
+196,FT Self-Employed without Employees,Self-Employed without Employees: Full-Time,,active,Economic Activity,Work
+197,Unemployed,Unemployed,,active,Economic Activity,Work
+198,Full-time student,Full-time student,,active,Economic Activity,Work
+199,Economically inactive,Economically inactive,,active,Economic Activity,Work
+200,Retired_x,Retired (Economically Inactive),,active,Economic Activity,Work
+201,Looking after home or family,Looking after home or family,,active,Economic Activity,Work
+202,Highly-Educated Percentage,Percentage Highly-Educated,,score,Scoring Metric,Work
+203,Percentage of Knowledge Workers,Percentage of Knowledge Workers,,score,Scoring Metric,Work
+204,House Prices (Box-Cox Transformed),Median House Price (Box-Cox),,score,Scoring Metric,Housing
+205,House Prices (Log Transformed),Median House Price (Log),,score,Scoring Metric,Housing
+206,Household Income (Box-Cox Transformed),Median Income (Box-Cox),,inc,Scoring Metric,Work
+207,Household Income (Log Transformed),Median Income (Log),,inc,Scoring Metric,Work
