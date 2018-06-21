@@ -6,7 +6,7 @@ This repo is intended to support replication and exploration of the analysis und
 
 ### Re-Use & Citation
 
-This code is provided to support replication and exploration of the methods and results. It is available under the [MIT License](LICENSE) so you are free to modify it as you like; however, we would ask that, if you go on to use this work in a substantive way as a basis for further publications, you also cite the Urban Studies article and acknowledge our contribution in an Acknowledgements section.
+All code is available under the [MIT License](LICENSE) so you are free to modify it as you like; however, we would ask that, if you go on to use this work in a substantive way as a basis for further publications, you also cite the Urban Studies article and acknowledge our contribution in an Acknowledgements section.
 
 ## Installation & Start-Up
 
