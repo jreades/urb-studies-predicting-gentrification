@@ -2,7 +2,7 @@
 
 ## About this Repository
 
-This repo is intended to support replication and exploration of the analysis undertaken for our Urban Studies article "Understanding urban gentrification through Machine Learning: Predicting neighbourhood change in London". Although we are not in a position to provide individualised support for installation or configuration of the iPython environment, we _have_ attempted to make it as painless as possible for you to get up and running _without_ hosing your existing Python environment. Please note that final visualisation of the results was undertaken in QGIS, available for free for Mac, PC, and Linux.
+This repo is intended to support replication and exploration of the analysis undertaken for our [Urban Studies](http://journals.sagepub.com/home/usj) article "Understanding urban gentrification through Machine Learning: Predicting neighbourhood change in London". Although we are not in a position to provide individualised support for installation or configuration of the iPython environment, we _have_ attempted to make it as painless as possible for you to get up and running _without_ hosing your existing Python environment. Please note that final visualisation of the results was undertaken in QGIS, available for free for Mac, PC, and Linux.
 
 ## Installation & Start-Up
 
