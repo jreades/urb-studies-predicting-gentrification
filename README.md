@@ -45,14 +45,9 @@ From time to time the UK Data Service may also update Geo-Convert online forms (
 
 ### Downloading Data
 
-Where possible I have attempted to either automate the download of the required data, or to make it available directly from the repo _as downloaded_ from the [NOMIS web site](https://www.nomisweb.co.uk) via their 'Query' service. In theory the NOMIS API should enable the automated selection and downloading of the data used by notebooks 2 and 3, but at the time that I was doing my work the API was broken and the documentation rather poor. Thus, the data in the `data` folder. In the interests of enabling a 'clean' run, I have only provided source data in the `src` directory.
+Where possible I have attempted to either automate the download of the required data, or to make it available directly from the repo _as downloaded_ from the [NOMIS web site](https://www.nomisweb.co.uk) via their 'Query' service. In theory the NOMIS API should enable the automated selection and downloading of the data used by notebooks 2 and 3, but at the time that I was doing my work the API was broken and the documentation rather poor. As a result you will find all of the source data that cannot be downloaded in the `data/src` folder. In the interests of enabling a 'clean distribution' this is the _only_ folder stored in GitHub; all others will be re-created as-needed when you run the notebooks.
 
 ### Random Seeds
 
 Many of the algorithms used in this analysis rely on randomness -- I have set the same seed everywhere that randomness might be used by Python and so your results _should_ match mine. Be aware, however, that minor platform differences or other changes to the code _could_ significaintly alter the results (though we obviously hope not!).
-
-
-## To Dos
-
-* Adjust GeoConvert Class Testing to be fully self-contained and download a 'random' 2001 data set from the London Data Store for conversion."
 
