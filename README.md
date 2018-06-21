@@ -10,7 +10,7 @@ All code is available under the [MIT License](LICENSE) so you are free to modify
 
 ## Installation & Start-Up
 
-You will need to install the [Anaconda Python](https://www.anaconda.com/download/) environment in order to run the setup script -- it should not matter if you install the full version or mini-conda so long as you have the conda toolset available to you. For some people the changes to the .bashrc/.bash_profile file made by Anaconda will cause problems elsewhere, so you are advised to see what effect the addition of the follow line has on any other tools upon which you rely:
+You will need to install the [Anaconda Python](https://www.anaconda.com/download/) environment in order to run the setup script -- it should not matter if you install the full version or mini-conda so long as you have the conda toolset available to you. For some people the changes to the `.bashrc`/`.bash_profile` file made by Anaconda will cause problems elsewhere, so you are advised to check what effect (if any) the addition of the follow line has on any other tools upon which you rely:
 ```
 export PATH="/anaconda3/bin:$PATH"
 ```
@@ -18,6 +18,7 @@ I, personally, use the following alias so that Anaconda is only available when I
 ```
 alias conda-start='export PATH="/anaconda3/bin:$PATH"'
 ```
+In particular I find this relevant for running QGIS 2.x on a Mac using the resources made available by [KyngChaos](https://www.kyngchaos.com/software/qgis). There seem to be more substantive 'issues' with QGIS 3 that mean you need to specify an environment variable in QGIS directly to get the right Python distribution, so this may no longer be a problem.
 
 Installation instructions are also contained in the head of the YAML script, but are reproduced here for clarity:
 ```
@@ -34,7 +35,7 @@ At this point you should have a new 'kernel' available in Jupyter called 'ML Gen
 
 ### Running the Notebooks
 
-The notebooks have been named in such a way as to make it easy to work out the sequence of 'scripts' that need to be run: start with 01.. and finish with 08. You'll notice that there are two versions of 08 (Neighbourhood Prediction); this is because I had timeout issues running 08 as a notebook and although the analysis would often complete at some point I had no way of knowing when, or if errors had arisen after the timeout occurred. Consequently, you might wish to run the 08 Python _script_ instead as it will provide output directly to the terminal instead of indirectly via the server.
+The notebooks have been named in such a way as to make it easy to work out the sequence of 'scripts' that need to be run: start with 01.. and finish with 08. [Notebook 00](00-Geoconvert Class Testing.ipynb) is only needed when you first clone the repo to ensure that the Geoconvert class is working. You'll notice that there are two versions of 08 (Neighbourhood Prediction); this is because I had timeout issues running 08 as a notebook and although the analysis would often complete at some point I had no way of knowing when, or if errors had arisen after the timeout occurred. Consequently, you might wish to run the 08 Python _script_ instead as it will provide output directly to the terminal instead of indirectly via the server.
 
 ### Geo-Convert
 
