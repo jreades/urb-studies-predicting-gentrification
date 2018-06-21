@@ -35,7 +35,7 @@ At this point you should have a new 'kernel' available in Jupyter called 'ML Gen
 
 ### Running the Notebooks
 
-The notebooks have been named in such a way as to make it easy to work out the sequence of 'scripts' that need to be run: start with 01.. and finish with 08. [Notebook 00](./00-Geoconvert Class Testing.ipynb) is only needed when you first clone the repo to ensure that the Geoconvert class is working. You'll notice that there are two versions of 08 (Neighbourhood Prediction); this is because I had timeout issues running 08 as a notebook and although the analysis would often complete at some point I had no way of knowing when, or if errors had arisen after the timeout occurred. Consequently, you might wish to run the 08 Python _script_ instead as it will provide output directly to the terminal instead of indirectly via the server.
+The notebooks have been named in such a way as to make it easy to work out the sequence of 'scripts' that need to be run: start with 01.. and finish with 08. [Notebook 00](./00-Geoconvert\ Class\ Testing.ipynb) is only needed when you first clone the repo to ensure that the Geoconvert class is working. You'll notice that there are two versions of 08 (Neighbourhood Prediction); this is because I had timeout issues running 08 as a notebook and although the analysis would often complete at some point I had no way of knowing when, or if errors had arisen after the timeout occurred. Consequently, you might wish to run the 08 Python _script_ instead as it will provide output directly to the terminal instead of indirectly via the server.
 
 ### Geo-Convert
 
