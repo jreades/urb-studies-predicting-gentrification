@@ -2,11 +2,11 @@
 
 ## About this Repository
 
-This repo is intended to support replication and exploration of the analysis undertaken for our [Urban Studies](http://journals.sagepub.com/home/usj) article "Understanding urban gentrification through Machine Learning: Predicting neighbourhood change in London". Although we are not in a position to provide individualised support for installation or configuration of the iPython environment, we _have_ attempted to make it as painless as possible for you to get up and running _without_ hosing your existing Python environment. Please note that final visualisation of the results was undertaken in [QGIS](https://www.qgis.org/) and [R](https://www.r-project.org)/[RStudio](https://www.rstudio.com), available for free for Mac, PC, and Linux (non-commercial use only for RStudio).
+This repo is intended to support replication and exploration of the analysis undertaken for our [Urban Studies](http://journals.sagepub.com/home/usj) article ["Understanding urban gentrification through Machine Learning: Predicting neighbourhood change in London"](https://doi.org/10.1177/0042098018789054). Although we are not in a position to provide individualised support for installation or configuration of the iPython environment, we _have_ attempted to make it as painless as possible for you to get up and running _without_ hosing your existing Python environment. Please note that final visualisation of the results was undertaken in [QGIS](https://www.qgis.org/) and [R](https://www.r-project.org)/[RStudio](https://www.rstudio.com), available for free for Mac, PC, and Linux (non-commercial use only for RStudio).
 
 ### Re-Use & Citation
 
-All code is available under the [MIT License](LICENSE) so you are free to modify it as you like; however, we would ask that, if you go on to use this work in a substantive way as a basis for further publications, you also cite the Urban Studies article and acknowledge our contribution in an Acknowledgements section.
+All code is available under the [MIT License](LICENSE) so you are free to modify it as you like; however, we would ask that, if you go on to use this work in a substantive way as a basis for further publications, you also [cite the Urban Studies article](https://doi.org/10.1177/0042098018789054) and acknowledge our contribution in an Acknowledgements section.
 
 ## Installation & Start-Up
 
