@@ -22,7 +22,12 @@ alias conda-start='export PATH="/anaconda3/bin:$PATH"'
 ```
 In particular I find this relevant for running QGIS 2.x on a Mac using the resources made available by [KyngChaos](https://www.kyngchaos.com/software/qgis). There seem to be more substantive 'issues' with QGIS 3 that mean you need to specify an environment variable in QGIS directly to get the right Python distribution, so this may no longer be a problem.
 
-Installation instructions are also contained in the head of the YAML script, but are reproduced here for clarity:
+The recent update to PySAL means that it may now be easier to work with the [environment.yml] file dumped from conda than to install everything 'fresh' using the [setup.yml] script below. I've now added this to the repository. Installation for this is:
+```
+conda env create -f environment.yml
+```
+
+Installation instructions for the clean environment (which you will then need to debug in terms of library compatibilities) are also contained in the head of the YAML script, but are reproduced here for clarity:
 ```
 conda-env create -f setup.yml
 source activate mlgent
