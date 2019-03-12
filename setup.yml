@@ -5,7 +5,7 @@
 # A nice way to set the display name for the environment:
 #   > `source activate mlgent`
 #   > `python -m ipykernel install --name mlgent --display-name "ML Gentrification"`
-name: mlgent 
+name: gent
 channels:
   - conda-forge
 dependencies:
@@ -14,23 +14,23 @@ dependencies:
   - cython
   - matplotlib
   - pandas
-  - scipy>=0.19
-  - numpy>=1.11
+  - scipy=1.1.0
+  - numpy=1.15.4
   - ipython
   - ipywidgets
   - jupyter
   - requests
   - mplleaflet
   - nb_conda
-  - gdal
-  - libspatialite
-  - fiona
+  - gdal=2.2.4
+  - libspatialite=4.3.0a
+  - fiona=1.7.12
   - pillow
-  - shapely
+  - shapely=1.6.4
   - geopandas>=0.3
   - palettable
-  - pysal
-  - scikit-learn
+  - pysal=1.14.4
+  - scikit-learn=0.19.1
   - seaborn
   - beautifulsoup4
   - xlrd
