@@ -1,5 +1,9 @@
 # Predicting Neighbourhood Change with Machine Learning
 
+## Important Note
+
+I'm currently trying to correct some issues identified by bugs #2 and #3. I should have done this on a branch but accidentally committed back to the main. I believe I've now got this fixed but need to checkout and re-run all of the notebooks to confirm that this is now function properly. If you'd like to work with the _previously published_ code then you should opt for the v1_0 tag. If you want the 'latest and greatest' then just grab the HEAD. Again, my apologies for not putting this on a branch -- will get it right next time.
+
 ## About this Repository
 
 This repo is intended to support replication and exploration of the analysis undertaken for our [Urban Studies](http://journals.sagepub.com/home/usj) article ["Understanding urban gentrification through Machine Learning: Predicting neighbourhood change in London"](https://doi.org/10.1177/0042098018789054). Please reference the published version in any publications; however, if you do not have institutional access to [Urban Studies](https://journals.sagepub.com/home/usj) then the pre-review draft of our paper can be accessed in our [Institutional Repository](https://kclpure.kcl.ac.uk/portal/en/publications/understanding-urban-gentrification-through-machine-learning(0dd96340-972a-4eb7-b857-54d58ed445e1).html).
