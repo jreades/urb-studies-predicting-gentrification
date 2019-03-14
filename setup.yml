@@ -1,5 +1,9 @@
 # If you've already installed this environment before:
 #   > `conda remove --name mlgent --all`
+# You may need to force prioritisation of conda-forge:
+#   > conda config --add channels conda-forge
+#   > conda config --set channel_priority strict
+#   > conda config --set show_channel_urls True
 # To install/reinstall the environment:
 #   > `conda-env create -f setup.yml`
 # A nice way to set the display name for the environment:
@@ -9,28 +13,30 @@ name: gent
 channels:
   - conda-forge
 dependencies:
-  - python=3.6
+  - python=3.7
   - pip
   - cython
   - matplotlib
   - pandas
-  - scipy=1.1.0
-  - numpy=1.15.4
+  - scipy
+  - numpy
+  - pyproj
   - ipython
   - ipywidgets
   - jupyter
   - requests
   - mplleaflet
   - nb_conda
-  - gdal=2.2.4
-  - libspatialite=4.3.0a
-  - fiona=1.7.12
+  - gdal
+  - libspatialite
+  - fiona
+  - poppler
   - pillow
-  - shapely=1.6.4
-  - geopandas>=0.3
+  - shapely
+  - geopandas
   - palettable
   - pysal=1.14.4
-  - scikit-learn=0.19.1
+  - scikit-learn
   - seaborn
   - beautifulsoup4
   - xlrd
