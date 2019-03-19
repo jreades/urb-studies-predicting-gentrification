@@ -2,7 +2,7 @@
 
 ## Important Note
 
-I'm currently trying to correct some issues identified by bugs #2 and #3. I should have done this on a branch but accidentally committed back to the main. I believe I've now got this fixed but need to checkout and re-run all of the notebooks to confirm that this is now function properly. If you'd like to work with the _previously published_ code then you should opt for the v1_0 tag. If you want the 'latest and greatest' then just grab the HEAD. Again, my apologies for not putting this on a branch -- will get it right next time.
+I've now updated the `setup.yml` file to resolve some issues with setting up the virtual environment and also added a missing file to the Geodata download notebook. These have been tagged `v1_1` but is also the current HEAD.
 
 ## About this Repository
 
