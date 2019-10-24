@@ -1,21 +1,27 @@
 # If you've already installed this environment before:
 #   > `conda remove --name mlgent --all`
+# You may need to force prioritisation of conda-forge:
+#   > export PYTHONNOUSERSITE=True
+#   > conda config --add channels conda-forge
+#   > conda config --set channel_priority strict
+#   > conda config --set show_channel_urls True
 # To install/reinstall the environment:
 #   > `conda-env create -f setup.yml`
 # A nice way to set the display name for the environment:
-#   > `source activate mlgent`
-#   > `python -m ipykernel install --name mlgent --display-name "ML Gentrification"`
-name: mlgent 
+#   > `conda activate mlgent`
+#   > `python -m ipykernel install --name mlgent --display-name "ML Gentrification v1.1"`
+name: mlgent
 channels:
   - conda-forge
 dependencies:
-  - python=3.6
+  - python=3.7
   - pip
   - cython
   - matplotlib
   - pandas
-  - scipy>=0.19
-  - numpy>=1.11
+  - scipy
+  - numpy
+  - pyproj
   - ipython
   - ipywidgets
   - jupyter
@@ -25,11 +31,12 @@ dependencies:
   - gdal
   - libspatialite
   - fiona
+  - poppler
   - pillow
   - shapely
-  - geopandas>=0.3
+  - geopandas
   - palettable
-  - pysal
+  - pysal=1.14.4
   - scikit-learn
   - seaborn
   - beautifulsoup4

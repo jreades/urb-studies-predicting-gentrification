@@ -1,8 +1,14 @@
 # Predicting Neighbourhood Change with Machine Learning
 
+## Important Note
+
+I've now updated the `setup.yml` file to resolve some issues with setting up the virtual environment and also added a missing file to the Geodata download notebook. These have been tagged `v1_1` but is also the current HEAD.
+
 ## About this Repository
 
-This repo is intended to support replication and exploration of the analysis undertaken for our [Urban Studies](http://journals.sagepub.com/home/usj) article ["Understanding urban gentrification through Machine Learning: Predicting neighbourhood change in London"](https://doi.org/10.1177/0042098018789054). Although we are not in a position to provide individualised support for installation or configuration of the iPython environment, we _have_ attempted to make it as painless as possible for you to get up and running _without_ hosing your existing Python environment. Please note that final visualisation of the results was undertaken in [QGIS](https://www.qgis.org/) and [R](https://www.r-project.org)/[RStudio](https://www.rstudio.com), available for free for Mac, PC, and Linux (non-commercial use only for RStudio).
+This repo is intended to support replication and exploration of the analysis undertaken for our [Urban Studies](http://journals.sagepub.com/home/usj) article ["Understanding urban gentrification through Machine Learning: Predicting neighbourhood change in London"](https://doi.org/10.1177/0042098018789054). Please reference the published version in any publications; however, if you do not have institutional access to [Urban Studies](https://journals.sagepub.com/home/usj) then the pre-review draft of our paper can be accessed in our [Institutional Repository](https://kclpure.kcl.ac.uk/portal/en/publications/understanding-urban-gentrification-through-machine-learning(0dd96340-972a-4eb7-b857-54d58ed445e1).html).
+
+Although we are not in a position to provide individualised support for installation or configuration of the iPython environment, we _have_ attempted to make it as painless as possible for you to get up and running _without_ hosing your existing Python environment. Please note that final visualisation of the results was undertaken in [QGIS](https://www.qgis.org/) and [R](https://www.r-project.org)/[RStudio](https://www.rstudio.com), available for free for Mac, PC, and Linux (non-commercial use only for RStudio).
 
 ### Re-Use & Citation
 
@@ -20,7 +26,12 @@ alias conda-start='export PATH="/anaconda3/bin:$PATH"'
 ```
 In particular I find this relevant for running QGIS 2.x on a Mac using the resources made available by [KyngChaos](https://www.kyngchaos.com/software/qgis). There seem to be more substantive 'issues' with QGIS 3 that mean you need to specify an environment variable in QGIS directly to get the right Python distribution, so this may no longer be a problem.
 
-Installation instructions are also contained in the head of the YAML script, but are reproduced here for clarity:
+The recent update to PySAL means that it may now be easier to work with the [environment.yml] file dumped from conda than to install everything 'fresh' using the [setup.yml] script below. I've now added this to the repository. Installation for this is:
+```
+conda env create -f environment.yml
+```
+
+Installation instructions for the clean environment (which you will then need to debug in terms of library compatibilities) are also contained in the head of the YAML script, but are reproduced here for clarity:
 ```
 conda-env create -f setup.yml
 source activate mlgent
